@@ -2,7 +2,7 @@
 const resultDiv = document.getElementById("result");
 
 // Fetch the data from the API
-url = "http://worldtimeapi.org/api/ip";
+url = "https://worldtimeapi.org/api/ip";
 fetch(url)
   .then((response) => response.json())
   .then((data) => {
